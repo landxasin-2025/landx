@@ -14,19 +14,19 @@ TerraTrust révolutionne la gestion foncière en Afrique en combinant blockchain
 
 \`\`\`
 terratrust/
-├── Frontend/           # Interface utilisateur Next.js
-│   ├── app/           # Pages App Router
-│   ├── components/    # Composants réutilisables
-│   ├── hooks/         # Hooks React personnalisés
-│   ├── lib/           # Utilitaires frontend
-│   └── styles/        # Système de design
-├── Backend/           # Logique métier et API
-│   ├── api/          # Routes API Express
-│   ├── services/     # Services (auth, blockchain, IA)
-│   ├── models/       # Modèles de données
-│   ├── types/        # Définitions TypeScript
-│   └── middleware/   # Middleware de sécurité
-├── Docs/             # Documentation complète
+├── Frontend/            Interface utilisateur Next.js
+│   ├── app/            Pages App Router
+│   ├── components/     Composants réutilisables
+│   ├── hooks/          Hooks React personnalisés
+│   ├── lib/            Utilitaires frontend
+│   └── styles/         Système de design
+├── Backend/            Logique métier et API
+│   ├── api/           Routes API Express
+│   ├── services/      Services (auth, blockchain, IA)
+│   ├── models/        Modèles de données
+│   ├── types/         Définitions TypeScript
+│   └── middleware/    Middleware de sécurité
+├── Docs/              Documentation complète
 │   ├── ARCHITECTURE.md
 │   ├── INSTALLATION.md
 │   └── API.md
