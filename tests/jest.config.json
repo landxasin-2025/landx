@@ -1,0 +1,11 @@
+{
+  "testEnvironment": "jsdom",
+  "setupFilesAfterEnv": ["<rootDir>/tests/setup.ts"],
+  "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/"],
+  "moduleNameMapping": {
+    "^@/(.*)$": "<rootDir>/$1",
+    "^@/components/(.*)$": "<rootDir>/frontend/components/$1",
+    "^@/backend/(.*)$": "<rootDir>/backend/$1"
+  },
+  "collectCoverageFrom": ["frontend/**/*.{js,jsx,ts,tsx}", "backend/**/*.{js,ts}", "!**/*.d.ts", "!**/node_modules/**"]
+}
