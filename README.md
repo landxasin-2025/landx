@@ -30,13 +30,13 @@ terratrust/
 │   ├── ARCHITECTURE.md
 │   ├── INSTALLATION.md
 │   └── API.md
-├── Tests/            # Tests automatisés
-│   ├── frontend/     # Tests composants React
-│   ├── backend/      # Tests services Node.js
-│   └── e2e/          # Tests end-to-end Cypress
-└── Assets/           # Ressources statiques
-    ├── images/       # Images et illustrations
-    └── icons/        # Icônes et logos
+├── Tests/             Tests automatisés
+│   ├── frontend/      Tests composants React
+│   ├── backend/       Tests services Node.js
+│   └── e2e/           Tests end-to-end Cypress
+└── Assets/            Ressources statiques
+    ├── images/        Images et illustrations
+    └── icons/         Icônes et logos
 \`\`\`
 
 ## 🛠️ Installation Rapide
